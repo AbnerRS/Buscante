@@ -7,7 +7,6 @@ import { FormControl } from '@angular/forms';
 
 const PAUSA = 300;
 
-
 @Component({
   selector: 'app-lista-livros',
   templateUrl: './lista-livros.component.html',
@@ -51,6 +50,7 @@ export class ListaLivrosComponent {
         return throwError(() => new Error(this.mensagemErro ='Ops, ocorreu um erro. Recarregue a aplicação!'))
       })
     )
+
   livrosResultadoParaLivros(items: Item[]): LivroVolumeInfo[] {
     return items.map(item => {
       return new LivroVolumeInfo(item)
@@ -59,7 +59,4 @@ export class ListaLivrosComponent {
 
 }
 
-function trhowError(arg0: () => Error) {
-  throw new Error('Function not implemented.');
-}
 
