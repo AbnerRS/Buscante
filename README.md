@@ -1,27 +1,50 @@
-# Buscante
+# Buscante // RXJS e Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+## Formação Alura Angular
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 🛠 Tecnologias
 
-## Code scaffolding
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular 14
+- VSCode 
+- Github
 
-## Build
+#### Boas Práticas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Herança entre classes
+- Identação
+- Versionamento de código
 
-## Running unit tests
+##### Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [x] Compreender os conceitos de arquitetura do framework
+- [x] Desenvolver CRUD usando o Angular
+- [x] Evoluir a aplicação com novas funcionalidades e refatoração de código
+- [x] Trabalhar com formulários orientados a templates, uso de diretivas e comunicação entre componentes
+- [x] Programar de forma reativa utilizando a biblioteca RxJS
 
-## Running end-to-end tests
+##### Aprendizado do Projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [x] Utilizar a arquitetura de componentes de apresentação e componentes inteligentes;
+- [x] Lidar com a biblioteca RxJS;
+- [x] Aplicar o padrão Observer.
+- [x] Utilizar os métodos next, error e complete;
+- [x] Desinscrever-se do observable através do unsubscribe;
+- [x] Adequar a resposta da API para o formato necessário.
+- [x] Utilizar o operador pipe para agrupar múltiplos operadores;
+- [x] Transformar o fluxo de dados com o operador map.
+- [x] Utilizar o operador tap para fazer debugging na aplicação;
+- [x] Transformar dados com pipes;
+- [x] Passar parâmetros e utilizar pipes encadeados;
+- [x] Criar um pipe customizado.
+- [x] Desenvolver uma busca dinâmica;
+- [x] Utilizar o pipe async;
+- [x] Encadear os operadores switchMap, filter e debounceTime para otimizar a performance da aplicação.
+- [x] Capturar erros com os operadores catchError e throwError;
+- [x] Utilizar o operador EMPTY;
+- [x] Mostrar mensagens de erro para a pessoa usuária.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+###### Autor
+- Abner Rodrigues 
